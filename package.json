@@ -10,8 +10,12 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
+    "aws-amplify": "^3.3.13",
+    "aws-sdk": "^2.814.0",
+    "mapbox-gl": "^2.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-map-gl": "^6.0.1",
     "react-scripts": "4.0.1",
     "typescript": "^4.0.3",
     "web-vitals": "^0.2.4"
@@ -39,5 +43,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/mapbox-gl": "^2.0.0",
+    "@types/react-map-gl": "^5.2.9"
   }
 }
